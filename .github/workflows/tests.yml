@@ -7,6 +7,7 @@ jobs:
   test:
     name: Test suite
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     services:
       postgres:
         image: postgres:13
